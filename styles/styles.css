@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-size: 28px;
+}
+nav{
+    background-color: #DC143F;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: cyan;
+    background-color: lightcoral;
+}
+header{
+    background-color: darkred;
+    color: lightgray;
+    text-decoration: none;
+}
+#footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: darkred;
+   }
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
