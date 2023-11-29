@@ -2,7 +2,7 @@
 
 Theme: Website for TheFatRat
 ---
-permalink: /index.html
+permalink: scripts/index.html
 ---
 ## Design Process
 Wireframe link: https://www.figma.com/file/DTFsR0zAmPgVsIICszgMYg/FED_Assg1?type=design&mode=design&t=x6GptsvOgWUWdfUs-1
