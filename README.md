@@ -8,3 +8,5 @@ Wireframe link: https://www.figma.com/file/DTFsR0zAmPgVsIICszgMYg/FED_Assg1?type
 ## Features
 
 ## Credits
+https://thefatrat.fandom.com/wiki/TheFatRat
+https://en.wikipedia.org/wiki/TheFatRat
