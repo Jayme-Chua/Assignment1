@@ -1,8 +1,8 @@
-# Sem2_FED_Assignment1
-
 ---
 permalink: /index.html
 ---
+
+# Sem2_FED_Assignment1
 
 Theme: Website for TheFatRat
 
