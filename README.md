@@ -1,5 +1,5 @@
 ---
-permalink: scripts/index.html
+permalink: scripts\index.html
 ---
 
 # Sem2_FED_Assignment1
