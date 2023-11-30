@@ -1,9 +1,11 @@
 # Sem2_FED_Assignment1
 
+---
+permalink: /index.html
+---
+
 Theme: Website for TheFatRat
----
-permalink: scripts/index.html
----
+
 ## Design Process
 Wireframe link: https://www.figma.com/file/DTFsR0zAmPgVsIICszgMYg/FED_Assg1?type=design&mode=design&t=x6GptsvOgWUWdfUs-1
 
