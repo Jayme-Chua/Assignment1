@@ -1,5 +1,5 @@
 ---
-permalink: /index.html
+permalink: scripts/index.html
 ---
 
 # Sem2_FED_Assignment1
@@ -13,4 +13,4 @@ Wireframe link: https://www.figma.com/file/DTFsR0zAmPgVsIICszgMYg/FED_Assg1?type
 
 ## Credits
 https://thefatrat.fandom.com/wiki/TheFatRat
-https://en.wikipedia.org/wiki/TheFatRat
+<br>https://en.wikipedia.org/wiki/TheFatRat
