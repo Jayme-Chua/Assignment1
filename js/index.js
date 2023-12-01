@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const images = container.querySelectorAll('img');
   
     let currentIndex = 0;
-    const intervalTime = 3000;
+    const intervalTime = 3000; //3 secs
   
     function showNextImage() {
       images.forEach(img => img.style.display = 'none');
@@ -12,6 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     images.forEach(img => img.style.display = 'none');
     images[currentIndex].style.display = 'block';
-    setInterval(showNextImage, intervalTime);
+    setInterval(showNextImage, intervalTime);//will change image every interval time
   });
   

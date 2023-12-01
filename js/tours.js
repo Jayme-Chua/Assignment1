@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', function () {
   
     const userGreeting = document.getElementById('userGreeting');
     if (storedUserData) {
-      userGreeting.textContent = `Hi, ${storedUserData.name}!`;
+      userGreeting.textContent = `Hi, ${storedUserData.name}!`; //write username
     } else {
-      userGreeting.textContent = 'Hi, Anonymous';
+      userGreeting.textContent = 'Hi, Anonymous'; // write anonymous if no username
     }
   
     const tourForm = document.getElementById('tourForm');
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
           name: name,
           email: email
         };
-        localStorage.setItem('userData', JSON.stringify(userData));
+        localStorage.setItem('userData', JSON.stringify(userData));// save data
         userGreeting.textContent = `Hi, ${name}!`;
       } else {
         alert('Please fill in all fields with valid information.');

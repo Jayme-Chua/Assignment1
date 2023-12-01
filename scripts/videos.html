@@ -8,7 +8,32 @@
   <link href="..\styles\normalize.css" rel="stylesheet" type="text/css" />
   <link href="..\styles\styles.css" rel="stylesheet" type="text/css" />
   <style>
-
+    body{
+      text-align: center;
+      background-image: url('../images/thefatrat-videos-bg.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+    }
+    .video-section {
+      margin-bottom: 30px;
+    }
+    .video-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .video {
+      width: 300px;
+      margin-bottom: 20px;
+    }
+    @media screen and (max-width: 600px) {
+      .video {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 
@@ -23,19 +48,35 @@
     </nav>
     <br>
   </header>
-  <p>Check out my new song</p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/xfGrN3ZsPLA?si=M9W_Iuao8eSF-equ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <section class="video-section">
+    <h3>Newest Video</h3>
+    <div class="video-container">
+      <iframe width="500" height="315" src="https://www.youtube.com/embed/xfGrN3ZsPLA?si=M9W_Iuao8eSF-equ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </section>
+  <section class="video-section">
+    <h3>Other Popular Videos</h3>
+    <div class="video-container">
+      <iframe width="350" height="315" src="https://www.youtube.com/embed/cMg8KaMdDYo?si=IX0zelQzhkosjxXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="350" height="315" src="https://www.youtube.com/embed/n8X9_MgEdCg?si=DcBMyFGOhpPu5o8W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="350" height="315" src="https://www.youtube.com/embed/KR-eV7fHNbM?si=MtQmlvVTVckNfvQ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="350" height="315" src="https://www.youtube.com/embed/B7xai5u_tnk?si=dRSvRUSulltQei_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="350" height="315" src="https://www.youtube.com/embed/aQzUaZGDJ80?si=LNKpUTZqYNfcAtrJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="350" height="315" src="https://www.youtube.com/embed/FmZRu4VkV44?si=p2_DAsHCggt0Nsgr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    
+    </div>
+  </section>
+
+  <br>
+  <footer class="flex" id="footer">
+    <a href="https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" target="_blank"><img src="..\images\spotify-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://music.apple.com/us/artist/thefatrat/395664545" target="_blank"><img src="..\images\apple-music-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://www.instagram.com/thefatratofficial/?hl=de" target="_blank"><img src="..\images\instagram-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://www.facebook.com/thisisthefatrat" target="_blank"><img src="..\images\facebook-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://twitter.com/ThisIsTheFatRat" target="_blank"><img src="..\images\twitter-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://soundcloud.com/thefatrat" target="_blank"><img src="..\images\soundcloud-icon.jpg" style="width:30px;height:30px;"></a>
+    <a href="https://discord.com/invite/thefatrat" target="_blank"><img src="..\images\discord-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://www.tiktok.com/@thefatrat" target="_blank"><img src="..\images\tiktok-icon.png" style="width:30px;height:30px;"></a>
+    
+  </footer>
 </body>
-<br>
-<footer class="flex" id="footer">
-  <a href="https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" target="_blank"><img src="..\images\spotify-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://music.apple.com/us/artist/thefatrat/395664545" target="_blank"><img src="..\images\apple-music-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://www.instagram.com/thefatratofficial/?hl=de" target="_blank"><img src="..\images\instagram-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://www.facebook.com/thisisthefatrat" target="_blank"><img src="..\images\facebook-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://twitter.com/ThisIsTheFatRat" target="_blank"><img src="..\images\twitter-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://soundcloud.com/thefatrat" target="_blank"><img src="..\images\soundcloud-icon.jpg" style="width:30px;height:30px;"></a>
-  <a href="https://discord.com/invite/thefatrat" target="_blank"><img src="..\images\discord-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://www.tiktok.com/@thefatrat" target="_blank"><img src="..\images\tiktok-icon.png" style="width:30px;height:30px;"></a>
-  
-</footer>
 </html>
