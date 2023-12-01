@@ -8,7 +8,25 @@
   <link href="..\styles\normalize.css" rel="stylesheet" type="text/css" />
   <link href="..\styles\styles.css" rel="stylesheet" type="text/css" />
   <style>
-
+    body{
+      background-image: url('../images/thefatrat-tours-bg.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      color: #d44f37;
+    }
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.7); 
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
   </style>
 </head>
 
@@ -24,17 +42,34 @@
     <br>
   </header>
   <h2>Tours</h2>
+  <div id="userGreeting" class="content"></div>
+  <br><div class="content">
+    <p>
+      Sorry, there are no shows currently available.
+      <br>To be notified of new tour dates when they are announced, enter your details in the form below.
+    </p>
+    <form id="tourForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <br>
+  <footer class="flex" id="footer">
+    <a href="https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" target="_blank"><img src="..\images\spotify-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://music.apple.com/us/artist/thefatrat/395664545" target="_blank"><img src="..\images\apple-music-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://www.instagram.com/thefatratofficial/?hl=de" target="_blank"><img src="..\images\instagram-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://www.facebook.com/thisisthefatrat" target="_blank"><img src="..\images\facebook-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://twitter.com/ThisIsTheFatRat" target="_blank"><img src="..\images\twitter-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://soundcloud.com/thefatrat" target="_blank"><img src="..\images\soundcloud-icon.jpg" style="width:30px;height:30px;"></a>
+    <a href="https://discord.com/invite/thefatrat" target="_blank"><img src="..\images\discord-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://www.tiktok.com/@thefatrat" target="_blank"><img src="..\images\tiktok-icon.png" style="width:30px;height:30px;"></a>
+    
+  </footer>
+  <script src="../js/tours.js"></script>
 </body>
-<br>
-<footer class="flex" id="footer">
-  <a href="https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" target="_blank"><img src="..\images\spotify-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://music.apple.com/us/artist/thefatrat/395664545" target="_blank"><img src="..\images\apple-music-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://www.instagram.com/thefatratofficial/?hl=de" target="_blank"><img src="..\images\instagram-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://www.facebook.com/thisisthefatrat" target="_blank"><img src="..\images\facebook-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://twitter.com/ThisIsTheFatRat" target="_blank"><img src="..\images\twitter-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://soundcloud.com/thefatrat" target="_blank"><img src="..\images\soundcloud-icon.jpg" style="width:30px;height:30px;"></a>
-  <a href="https://discord.com/invite/thefatrat" target="_blank"><img src="..\images\discord-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://www.tiktok.com/@thefatrat" target="_blank"><img src="..\images\tiktok-icon.png" style="width:30px;height:30px;"></a>
-  
-</footer>
 </html>

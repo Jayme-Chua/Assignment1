@@ -12,6 +12,18 @@
       display: flex;
       justify-content: space-around;
     }
+    @media screen and (max-width: 600px) {
+      /* Adjust flex direction for smaller screens */
+      .container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      /* Center the images in the column layout */
+      img {
+        margin-bottom: 20px;
+      }
+    }
   </style>
 </head>
 
@@ -28,7 +40,9 @@
   </header>
   <h2>Home</h2>
   <div class="container">
-    <img src="..\images\thefatrat-icon.png" style="width:300px;height:300px;">
+    <img src="..\images\thefatrat1-icon.png" style="width:300px;height:300px;">
+    <img src="..\images\thefatrat2-icon.png" style="width:300px;height:300px;">
+    <img src="..\images\thefatrat3-icon.jpg" style="width:300px;height:300px;">
     <p style="padding: 40px; background-color: bisque; text-wrap: wrap;">TheFatRat's music ranges from euphoric progressive house to orchestral trap, melodic glitch-hop 
       and K-Pop with a heavy influence of video game music. He is enormously popular on YouTube, 
       particularly within the gaming community, currently boasting one of the largest followings 
@@ -40,16 +54,17 @@
       music synched-to-screen for popular video games like the top-grossing DOTA 2 and Rocket League 
       and has planted himself as the go-to artist for ESports brands like ESL and Dreamhack.</p>
   </div>
-<br>
-<footer class="flex" id="footer">
-  <a href="https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" target="_blank"><img src="..\images\spotify-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://music.apple.com/us/artist/thefatrat/395664545" target="_blank"><img src="..\images\apple-music-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://www.instagram.com/thefatratofficial/?hl=de" target="_blank"><img src="..\images\instagram-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://www.facebook.com/thisisthefatrat" target="_blank"><img src="..\images\facebook-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://twitter.com/ThisIsTheFatRat" target="_blank"><img src="..\images\twitter-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://soundcloud.com/thefatrat" target="_blank"><img src="..\images\soundcloud-icon.jpg" style="width:30px;height:30px;"></a>
-  <a href="https://discord.com/invite/thefatrat" target="_blank"><img src="..\images\discord-icon.png" style="width:30px;height:30px;"></a>
-  <a href="https://www.tiktok.com/@thefatrat" target="_blank"><img src="..\images\tiktok-icon.png" style="width:30px;height:30px;"></a>
-  
-</footer>
+  <br>
+  <footer class="flex" id="footer">
+    <a href="https://open.spotify.com/artist/3OKg7YbOIatODzkRIbLJR4" target="_blank"><img src="..\images\spotify-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://music.apple.com/us/artist/thefatrat/395664545" target="_blank"><img src="..\images\apple-music-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://www.instagram.com/thefatratofficial/?hl=de" target="_blank"><img src="..\images\instagram-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://www.facebook.com/thisisthefatrat" target="_blank"><img src="..\images\facebook-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://twitter.com/ThisIsTheFatRat" target="_blank"><img src="..\images\twitter-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://soundcloud.com/thefatrat" target="_blank"><img src="..\images\soundcloud-icon.jpg" style="width:30px;height:30px;"></a>
+    <a href="https://discord.com/invite/thefatrat" target="_blank"><img src="..\images\discord-icon.png" style="width:30px;height:30px;"></a>
+    <a href="https://www.tiktok.com/@thefatrat" target="_blank"><img src="..\images\tiktok-icon.png" style="width:30px;height:30px;"></a>
+  </footer>
+  <script src="../js/index.js"></script>
+</body>
 </html>
