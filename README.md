@@ -1,4 +1,4 @@
-<meta http-equiv="refresh" content="0; url=https://jayme-chua.github.io/S10257137_Assignment1/scripts/index.html">
+<meta http-equiv="refresh" content="0; url=https://jayme-chua.github.io/FED_S10257137_Jayme-Chua_Assg1/scripts/index.html">
 
 # Sem2_FED_Assignment1
 
